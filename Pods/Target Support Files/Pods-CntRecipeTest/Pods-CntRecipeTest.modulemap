@@ -1,0 +1,6 @@
+framework module Pods_CntRecipeTest {
+  umbrella header "Pods-CntRecipeTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,43 @@
+### Headers settings
+company: MoviesList
+
+### Xcode project settings
+project_name: MoviesList
+product_module_name: MoviesList
+#prefix: RDS
+xcodeproj_path: MoviesList.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: MoviesList
+
+# The file path for new modules
+#project_file_path: MoviesList/Modules
+
+# The Xcode group path to new modules
+project_group_path: MoviesList/Modules
+
+### Tests generation settings section
+# The tests target name
+#test_target: MoviesListTests
+
+# The file path for new tests
+#test_file_path: MoviesListTests/Modules
+
+# The Xcode group path to new tests
+#test_group_path: MoviesListTests/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+#cartfile_path: Cartfile
+
+### Templates
+catalogs:
+#- 'https://github.com/rambler-digital-solutions/generamba-catalog'
+#- 'https://github.com/igrekde/my-own-catalog'
+templates:
+#- {name: rviper_controller}
+#- {name: local_template_name, local: 'absolute/file/path'}
+#- {name: remote_template_name, git: 'https://github.com/igrekde/remote_template'}
+
+ - {name: swift-mvp-injection, git: 'https://github.com/mihailsalari/swift-mvp-injection.git'}
